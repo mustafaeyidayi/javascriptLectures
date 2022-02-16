@@ -60,5 +60,5 @@ function filtre(bitki,index){
 }
    
 }
-const meyvelerDizisi=kendiFiltreYapim(bitkiler,filtre,1);
+const meyvelerDizisi=kendiFiltreYapim(bitkiler,filtre);
 console.log(meyvelerDizisi);
