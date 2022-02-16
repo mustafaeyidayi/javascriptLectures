@@ -1,6 +1,6 @@
 const bitkiler=[
     {id:1,tur:'meyve'},
-    {id:1,tur:'sebze'},
+    {id:2,tur:'sebze'},
     {id:3,tur:'egzotik'},
     {id:4,tur:'ağaç'}
     ];

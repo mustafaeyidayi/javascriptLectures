@@ -67,3 +67,41 @@ const sonuc=yeniArray.reduce(function (pre,oAnkiEleman) {
 console.log(sonuc===0);
 }
 parantezlerDenkMi("((((((((()))))))))");
+
+const sayilar1=[1,2,3,4,5,6,7,8,9];
+function odev(sayi){
+
+const tekElemanliDizi=sayi.filter(function(sayi){
+        return sayi%2!==0;
+    }
+
+)
+console.log(tekElemanliDizi);
+
+const baskaBirDizi=tekElemanliDizi.map(function(sayi){
+    return sayi*sayi;
+})
+
+
+console.log(baskaBirDizi);
+const sonuc=baskaBirDizi.reduce(function(pre,oAnkiEleman){
+
+if(oAnkiEleman>10){
+    return pre+oAnkiEleman;
+}
+else{
+    return pre;
+}
+},0)
+console.log(sonuc);
+}
+ odev(sayilar1);
+//kısa hali
+ function odev(sayi){
+
+    const sonuc= tekElemanliDizi=sayi.filter((sayi)=>sayi%2!==0)
+        .map((sayi)=>sayi*sayi).reduce((pre,oAnkiEleman)=>oAnkiEleman>10?(pre+oAnkiEleman):(pre),0)
+        console.log(sonuc);
+        }
+     odev(sayilar1);
+    
