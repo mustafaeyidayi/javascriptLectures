@@ -2,9 +2,13 @@
 
 //her bir array indeksi için bu fonksiyon işliyor.
 let sayilar=[1,2,3,4,5,6];
-sayilar.forEach(function(sayi) {
-    console.log(sayi);
+const k=sayilar.forEach(function(sayi) {
+   if (sayi>3) {
+    console.log(sayi*2);
+   }
+    
 });
+
 
 console.log("*****************************");
 for(i=0;i<sayilar.length;i++){
