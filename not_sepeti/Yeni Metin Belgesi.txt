@@ -2,3 +2,4 @@ https://flatuicolors.com/palette/defo
 https://fontawesome.com/icons/trash-can?s=solid
 https://cdnjs.com/libraries/font-awesome
 https://fonts.google.com/specimen/Open+Sans#standard-styles
+http://getskeleton.com/
