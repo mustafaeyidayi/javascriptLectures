@@ -19,3 +19,7 @@ class JokeApi {
     }
 
 }
+export default function joke(){
+    const comingJoke = new JokeApi().getRandomJoke();
+    return comingJoke;
+}

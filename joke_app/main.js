@@ -1,1 +1,2 @@
-const ekran=new App();
+import application from './app.js';
+application();

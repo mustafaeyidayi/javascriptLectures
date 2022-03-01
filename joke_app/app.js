@@ -1,3 +1,6 @@
+import joke from "./joke_api.js";
+import image from "./unsplash_api.js";
+
 class App{
 constructor() {
     this.sakaGetirBtn=document.querySelector('.saka-getir-button')
@@ -7,8 +10,8 @@ constructor() {
 }
 
 async getJoke(){
-const randomImage= await new UnsplashApi().getRandomImage();
-const randomJoke= await new JokeApi().getRandomJoke();
+const randomImage=await image();
+const randomJoke= await joke();
 const allResults={
     randomImage:randomImage,
     randomJoke:randomJoke
@@ -32,4 +35,9 @@ writeTheResult(Results){
     </div>    
 </div>`
 }
+}
+
+export default function app(){
+   new App();
+    
 }

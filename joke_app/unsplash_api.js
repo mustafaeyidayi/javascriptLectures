@@ -17,7 +17,7 @@ class UnsplashApi {
 
     async getRandomImage() {
         try {
-            debugger
+            
             const imageResponse = await this.axiosNesne.get('/photos/random');
             console.log(imageResponse.data[0].links.download);
             return imageResponse.data[0].links.download;
@@ -27,8 +27,9 @@ class UnsplashApi {
         }
     }
 
-
-
-
+}
+export default function image(){
+    const comingImage=  new UnsplashApi().getRandomImage();
+    return comingImage;
 
 }
