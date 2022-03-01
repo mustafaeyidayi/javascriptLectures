@@ -1,0 +1,1 @@
+const ekran=new App();
