@@ -2,7 +2,7 @@
 //primitive ve referans veri türleri
 
 //primitive tipler:Number, string, Boolean, Undefined, Null, Symbol
-//referans tipler:object
+//referans tipler:object,array
 //JS de dinamik veri türü vardır, bizim verdiğimiz degere göre değişir.
 
 //number

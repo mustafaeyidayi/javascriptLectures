@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dom Kavramı</title>
+    <style>
+        .container {
+            width: 400px;
+            height: 200px;
+            background-color: teal;
+            padding: 2rem 2rem;
+            font-size: 2rem;
+            color: white;
+        }
+        .link,
+        .link:visited {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .link:hover {
+            color: #333;
+        }
+        .yazi {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        
+        <div class="child">
+        
+            <h3 class="item child-item">Merhaba</h3>
+           
+        </div>
+    </div>
+    <div class="container">
+        <form action="https://www.emrealtunbilek.com" method="post" id="form">
+            <input id="ad" type="text" placeholder="adınız">
+
+            <select name="sehir" id="sehir">
+                <option value="1">Bursa</option>
+                <option value="2">İzmir</option>
+
+            </select>
+            <button type="button">Normal buton</button>
+            <button type="reset">Temizle</button>
+            <button type="submit">Gönder</button>
+        </form>
+        <a href="https://www.emrealtunbilek.com" target="_blank" class="link">Blog sitem</a>
+        <p class="yazi">Merhaba</p>
+    </div>
+     <script src="dom_event.js"></script> 
+</body>
+
+</html>

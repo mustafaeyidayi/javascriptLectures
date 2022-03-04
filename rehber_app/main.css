@@ -1,0 +1,38 @@
+.btn{
+
+border: 0;
+outline: none;
+padding: 0;
+font-size:1.5rem ;
+
+}
+.btn--edit{
+color: green;
+background-color: aqua;
+
+
+}
+.btn--delete{
+color: red;
+background-color: aqua;
+
+}
+
+.bilgi{
+margin: 1rem 0;
+padding: 1rem ;
+border-radius: 4px;
+} 
+.fa{
+     pointer-events: none;
+}
+
+
+.bilgi--success{
+border: 1px solid green;
+}
+
+
+.bilgi--error{
+    border: 1px solid red;
+}
